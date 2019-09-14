@@ -1,0 +1,78 @@
+@font-face {
+    font-family: helvet;
+    src: url(coolvetica.ttf);
+}
+@font-face {
+    font-family: monaco;
+    src: url(monaco.ttf);
+}
+*{
+	margin:0px;
+	padding:0px;
+
+}
+
+body{
+	background: #08C2FF;
+}
+#header{
+	width:100%;
+	height:80px;
+	background: #333;
+}
+
+#navbar{
+	width: 1200px;
+	height: 80px;
+	border: 1px;
+	float:right;
+}
+#navbar>li{
+	width: 190px;
+	list-style: none;
+	float:left;
+
+}
+li>a{
+	display: block;
+	color:white;
+	line-height: 80px;
+	text-align: center;
+	font-family: helvet; 
+	font-size: 20px;
+	text-decoration: none;
+}
+
+li>a:hover{background:#FF711E;
+			color: #333; }
+
+#logo{
+	width:50px;
+	height: 50px;
+	float: left;
+	padding-left: 40px;
+
+
+
+}
+
+h2	{
+	font-family: monaco;
+        font-size: 20px;
+	text-align: center;
+	padding: 80px 80px 80px 80px;
+	
+}
+	
+th, td {
+			
+    padding: 15px;
+    text-align: left;
+}
+
+  table{
+  	border: 3px solid ;
+  	
+
+
+  }
